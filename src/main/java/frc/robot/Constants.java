@@ -19,12 +19,12 @@ public final class Constants {
         public static final int pigeonID = 1;
 
 // <<<<<<< 2024-fix
-        public static final COTSFalconSwerveConstants chosenModule =  //TODO: This must be tuned to specific robot
-            COTSFalconSwerveConstants.SDSMK3(COTSFalconSwerveConstants.driveGearRatios.SDSMK3_Fast);
+        //public static final COTSFalconSwerveConstants chosenModule =  //TODO: This must be tuned to specific robot
+          //  COTSFalconSwerveConstants.SDSMK3(COTSFalconSwerveConstants.driveGearRatios.SDSMK3_Fast);
             //COTSFalconSwerveConstants.SDSMK4i(COTSFalconSwerveConstants.driveGearRatios.SDSMK4i_L2);
 // =======
-//         public static final COTSTalonFXSwerveConstants chosenModule =  //TODO: This must be tuned to specific robot
-//         COTSTalonFXSwerveConstants.SDS.MK4i.Falcon500(COTSTalonFXSwerveConstants.SDS.MK4i.driveRatios.L2);
+         public static final COTSTalonFXSwerveConstants chosenModule =  //TODO: This must be tuned to specific robot
+         COTSTalonFXSwerveConstants.SDS.MK4i.Falcon500(COTSTalonFXSwerveConstants.SDS.MK4i.driveRatios.L2);
 // >>>>>>> main
 
         /* Drivetrain Constants */
